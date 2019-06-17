@@ -24,21 +24,25 @@ public class LoginTests {
 	private ScreenShot screenShot;
 
 	@BeforeClass
-	public static void setUpBeforeClass() throws IOException {
+	public  void setUpBeforeClass() throws IOException {
 		properties = new Properties();
 		FileInputStream inStream = new FileInputStream("./resources/others.properties");
 		properties.load(inStream);
-	}
-
-	@BeforeMethod
-	public void setUp() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
+		driver = DriverFactory.getDriver(DriverNames.FIREFOX);
 		loginPOM = new LoginPOM(driver); 
 		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
+		System.out.println(baseUrl);
+		screenShot = new ScreenShot(driver); 		
+		//driver.get("http://retail.upskills.in/");
+		//Thread.sleep(1000);
 		// open the browser 
 		driver.get(baseUrl);
+
 	}
+
+	/*@BeforeMethod
+	public void setUp() throws Exception {
+			}*/
 	
 	@AfterMethod
 	public void tearDown() throws Exception {
@@ -47,9 +51,9 @@ public class LoginTests {
 	}
 	@Test
 	public void validLoginTest() {
-		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
+		loginPOM.sendUserName("ankit64291@gmail.com");
+		loginPOM.sendPassword("June@2019");
+		loginPOM.clickLoginBtn();
 		screenShot.captureScreenShot("First");
 	}
 }
