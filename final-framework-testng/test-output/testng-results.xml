@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55714" started-at="2019-06-17T12:59:01Z" finished-at="2019-06-17T12:59:57Z">
+  <suite name="Default suite" duration-ms="46599" started-at="2019-06-21T18:39:48Z" finished-at="2019-06-21T18:40:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55714" started-at="2019-06-17T12:59:01Z" finished-at="2019-06-17T12:59:57Z">
-      <class name="com.training.sanity.tests.RTTC_004">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_004@7823a2f9]" name="setUpBeforeClass" is-config="true" duration-ms="62" started-at="2019-06-17T18:29:02Z" finished-at="2019-06-17T18:29:02Z">
+    <test name="Default test" duration-ms="46599" started-at="2019-06-21T18:39:48Z" finished-at="2019-06-21T18:40:34Z">
+      <class name="com.training.sanity.tests.RTTC_038">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_038@7823a2f9]" name="setUpBeforeClass" is-config="true" duration-ms="38" started-at="2019-06-22T00:09:48Z" finished-at="2019-06-22T00:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_004@7823a2f9]" name="setUp" is-config="true" duration-ms="31285" started-at="2019-06-17T18:29:02Z" finished-at="2019-06-17T18:29:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_038@7823a2f9]" name="setUp" is-config="true" duration-ms="18714" started-at="2019-06-22T00:09:48Z" finished-at="2019-06-22T00:10:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_004@7823a2f9]" name="validLoginTest" duration-ms="23259" started-at="2019-06-17T18:29:33Z" finished-at="2019-06-17T18:29:56Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_038@7823a2f9]" name="validLoginTest" duration-ms="26778" started-at="2019-06-22T00:10:06Z" finished-at="2019-06-22T00:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_004@7823a2f9]" name="tearDown" is-config="true" duration-ms="1014" started-at="2019-06-17T18:29:56Z" finished-at="2019-06-17T18:29:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_038@7823a2f9]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-06-22T00:10:33Z" finished-at="2019-06-22T00:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RTTC_004 -->
+      </class> <!-- com.training.sanity.tests.RTTC_038 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
